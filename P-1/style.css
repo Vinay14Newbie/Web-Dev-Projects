@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color:rgb(49, 83, 150);
+    padding-top: 130px;
+}
+
+#small_heading, .heading_second{
+    color: rgb(65, 190, 153);
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.heading_first{
+    font-size: 90px;
+    line-height: 190px;
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+}
+.heading_second{
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+#heart{
+    color: red;
+}
+#break{
+    color: rgb(54, 50, 50);
+}
+
+p{
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
+}
+#sub_sub_heading{
+    color: rgb(40, 174, 174);
+    font-size: 23px;
+}
+
+
+/* main_section */
+.main_first, #small_heading{
+    text-align: center;
+}
+.main_first{
+    margin: 120px 0 80px 0;
+}
+.main_first--first{
+    margin: 30px 0 30px 0;
+}
+.small_heading{
+    margin: 50px;
+}
+
+
+.main_second--first{
+    margin: 80px 350px 50px 350px;
+}
+.main_second--second{
+    margin: 80px 350px 30px 350px;
+}
+
+.professional_tutor, .hot_wings, .main_third--para{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.main_second #break{
+    text-align: center;
+}
+.main_second{
+    margin-bottom: 70px;
+}
+
+.main_third, .footer, .main_button{
+    text-align: center;
+}
+
+#main_third--para{
+    margin-bottom: 12px;
+}
+
+/* button */
+.main_button{
+    margin: 70px 0 59px 0;
+}
+.main_button p{
+    display: inline-block;
+    width: 160px;
+    background-color:rgb(65, 190, 153);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* footer_bar */
+.footer_bar p{
+    display: inline-block;
+    margin: 20px 25px 10px 25px;
+}
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(52, 145, 179);
+}
+.footer #copy{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer_bar p:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+.main_button p:hover{
+    cursor: pointer;
+    background-color: rgb(55, 175, 240);
+    color: rgb(49, 83, 150);
+}
