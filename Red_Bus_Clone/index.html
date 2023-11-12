@@ -60,7 +60,7 @@
 
 
     <!-- header section starts here -->
-    <header style="background-image: url(./assets/allu_arjun_bgc.png); background-repeat: no-repeat; background-size: 100% 72%;" class="header w-100 h-[100vh] flex flex-col items-center overflow-hidden">
+    <header style="background-image: url(./assets/allu_arjun_bgc.png); background-repeat: no-repeat; background-size: 100% 72%;" class="w-100 h-[100vh] flex flex-col items-center overflow-hidden">
         <!-- first heading -->
         <div class="mt-20 text-white">
             <h1 class="font-extrabold text-4xl">India's No. 1 Online Bus Ticket Booking Site</h1>
@@ -101,39 +101,41 @@
             </div>
             <div class="flex items-center">
                 <div class="rounded-full bg-blue-100 p-2 py-2 flex justify-center hover:cursor-pointer hover:shadow-xl"><i class="fa-solid fa-greater-than fa-rotate-180"></i></i></div>
-                <div class="flex hover:shadow-xl bg-blue-600 text-white px-5 py-3.5 rounded-xl m-2 hover:scale-[1.1]">
-                    <img class="mt-6 rounded-full w-16 h-16" src="./assets/first_offers.png" alt="first_offers">
-                    <div class="ml-4">
-                        <div class="bg-blue-500 rounded-2xl inline-block px-2 py-1 text-sm">BUS</div>
-                        <p class="font-bold text-lg my-0.5">Save up to Rs 250 on bus tickets</p>
-                        <p class="mb-2 mt-1 text-sm">Valid till 30 Nov</p>
-                        <div class="flex items-center mt-1">
-                            <p class="border-dotted border-white border-2 rounded-lg bg-blue-500 font-bold px-2 py-1 text-sm mr-3">FIRST</p>
-                            <i class="fa-regular hover:cursor-pointer fa-copy text-lg"></i>
+                <div class="grid grid-cols-3">
+                    <div class="flex hover:shadow-xl bg-blue-600 text-white px-5 py-3.5 rounded-xl m-2 hover:scale-[1.1]">
+                        <img class="mt-6 rounded-full w-16 h-16" src="./assets/first_offers.png" alt="first_offers">
+                        <div class="ml-4">
+                            <div class="bg-blue-500 rounded-2xl inline-block px-2 py-1 text-sm">BUS</div>
+                            <p class="font-bold text-lg my-0.5">Save up to Rs 250 on bus tickets</p>
+                            <p class="mb-2 mt-1 text-sm">Valid till 30 Nov</p>
+                            <div class="flex items-center mt-1">
+                                <p class="border-dotted border-white border-2 rounded-lg bg-blue-500 font-bold px-2 py-1 text-sm mr-3">FIRST</p>
+                                <i class="fa-regular hover:cursor-pointer fa-copy text-lg"></i>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex hover:shadow-xl bg-green-700 text-white px-5 py-3.5 rounded-xl my-2 mx-4 hover:scale-[1.1]">
-                    <img class="mt-6 rounded-full w-16 h-16" src="./assets/second_offers.png" alt="first_offers">
-                    <div class="ml-4">
-                        <div class="bg-green-800 rounded-2xl inline-block px-2 py-1 text-sm">BUS</div>
-                        <p class="font-bold text-lg my-0.5">Get 10% upto off Rs    300 on HDFC Bank</p>
-                        <p class="mb-2 mt-1 text-sm">Valid till 14 Nov</p>
-                        <div class="flex items-center mt-1">
-                            <p class="border-dotted border-white border-2 rounded-lg bg-green-800 font-bold px-2 py-1 text-sm mr-3">---</p>
-                            <i class="fa-regular hover:cursor-pointer fa-copy text-lg"></i>
+                    <div class="flex hover:shadow-xl bg-green-700 text-white px-5 py-3.5 rounded-xl my-2 mx-4 hover:scale-[1.1]">
+                        <img class="mt-6 rounded-full w-16 h-16" src="./assets/second_offers.png" alt="first_offers">
+                        <div class="ml-4">
+                            <div class="bg-green-800 rounded-2xl inline-block px-2 py-1 text-sm">BUS</div>
+                            <p class="font-bold text-lg my-0.5">Get 10% upto off Rs    300 on HDFC Bank</p>
+                            <p class="mb-2 mt-1 text-sm">Valid till 14 Nov</p>
+                            <div class="flex items-center mt-1">
+                                <p class="border-dotted border-white border-2 rounded-lg bg-green-800 font-bold px-2 py-1 text-sm mr-3">---</p>
+                                <i class="fa-regular hover:cursor-pointer fa-copy text-lg"></i>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex hover:shadow-xl bg-red-800 text-white px-5 py-3.5 rounded-xl m-2 hover:scale-[1.1]">
-                    <img class=" mt-6 rounded-full w-16 h-16" src="./assets/third_offers.png" alt="first_offers">
-                    <div class="ml-4">
-                        <div class="bg-red-900 rounded-2xl inline-block px-2 py-1 text-sm">BUS</div>
-                        <p class="font-bold text-lg my-0.5">Save up to Rs 300 on AP, TS routes</p>
-                        <p class="mb-2 mt-1 text-sm">Valid till 30 Nov</p>
-                        <div class="flex items-center mt-1">
-                            <p class="border-dotted border-white border-2 rounded-lg bg-red-900 font-bold px-2 py-1 text-sm mr-3">SUPERHIT</p>
-                            <i class="fa-regular hover:cursor-pointer fa-copy text-lg"></i>
+                    <div class="flex hover:shadow-xl bg-red-800 text-white px-5 py-3.5 rounded-xl m-2 hover:scale-[1.1]">
+                        <img class=" mt-6 rounded-full w-16 h-16" src="./assets/third_offers.png" alt="first_offers">
+                        <div class="ml-4">
+                            <div class="bg-red-900 rounded-2xl inline-block px-2 py-1 text-sm">BUS</div>
+                            <p class="font-bold text-lg my-0.5">Save up to Rs 300 on AP, TS routes</p>
+                            <p class="mb-2 mt-1 text-sm">Valid till 30 Nov</p>
+                            <div class="flex items-center mt-1">
+                                <p class="border-dotted border-white border-2 rounded-lg bg-red-900 font-bold px-2 py-1 text-sm mr-3">SUPERHIT</p>
+                                <i class="fa-regular hover:cursor-pointer fa-copy text-lg"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
